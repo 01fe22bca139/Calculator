@@ -24,7 +24,8 @@ class Calculator extends Child
         Calculator calc= new Calculator();
        Child c=new Child();
 
- Scanner sc= new Scanner(System.in);
+float operand_1=10;
+     float operand_2=5;
  System.out.println("ENTER THE OPERAND 1");
  int operand_1=sc.nextInt();
  System.out.println("ENTER THE OPERAND 2");
